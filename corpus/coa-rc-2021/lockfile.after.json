@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "packages": {
+    "": {
+      "name": "my-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "coa": "^1"
+      }
+    },
+    "node_modules/coa": {
+      "name": "coa",
+      "version": "2.0.3",
+      "integrity": "sha512-cUPrnCAsGh6LhVdWjDDWTTHVyPAGE6u4FLPtHmK8GUBhcz4YtuzNrnCSoTjP0YQ55Arjrf+imsS25lkRJc40tw==",
+      "resolved": "file:./coa-2.0.3/coa-2.0.3.tgz"
+    }
+  }
+}

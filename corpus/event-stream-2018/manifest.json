@@ -1,0 +1,41 @@
+{
+  "id": "event-stream-2018",
+  "title": "event-stream 3.3.6 → flatmap-stream (Nov 2018)",
+  "year": 2018,
+  "threatClass": "T2 transitive injection",
+  "summary": "A new maintainer took over event-stream and added a tiny dep, flatmap-stream 0.1.1, which they controlled. flatmap-stream carried an AES-encrypted payload targeting the Copay Bitcoin wallet. The attack was invisible at depth 0 — event-stream itself was clean; the poison was one level down, in a package that had never existed before. The recursive-engine showcase.",
+  "provenance": "RECONSTRUCTED",
+  "topology": "transitive",
+  "defanged": true,
+  "expect": {
+    "mustFire": [
+      "deps.new-direct-dep",
+      "meta.maintainer-change"
+    ],
+    "mustNotFire": [],
+    "verdict": "BLOCK",
+    "minCategories": [
+      "DEPS",
+      "META"
+    ]
+  },
+  "packages": {
+    "clean": {
+      "name": "event-stream",
+      "version": "3.3.5",
+      "integrity": "sha512-do+KV1KIFH2LamDo+KeGtpPF0BgsrnaUgRwBAHBcWCf7HcJihpmZQViBS405A5QhmZ1XkrMAXtiA8TFp/uE3MQ=="
+    },
+    "malicious": {
+      "name": "event-stream",
+      "version": "3.3.6",
+      "integrity": "sha512-s6DjvE4jb7efbXAMCD5srnjqskIm2MP8BxD9/siGBJZ37UoWwqR0wON1lHjkzXYWbdjREC1VEnN62R6Y0Fi3HA=="
+    },
+    "transitives": [
+      {
+        "name": "flatmap-stream",
+        "version": "0.1.1",
+        "integrity": "sha512-NuNy7SIs3/2VZTjBJKYwHUoGJ7nWU26CzO46yFNzb5CloxI27r7yIs0bIg02cyLyV0QRYDFrBsWu2A3DnwVgLg=="
+      }
+    ]
+  }
+}

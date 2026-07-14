@@ -1,0 +1,40 @@
+name: ci
+
+# On every PR + push to main:
+# 1. Defang guard — no live IOCs in any corpus fixture (protects the moat)
+# 2. Scoreboard drift — if a scorer/corpus change made results/*.json go stale,
+#    fail (the scoreboard must always reflect a real just-run scoring, not history)
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  defang-guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Defang guard (no live IOCs in corpus)
+        run: node scripts/defang-guard.js
+
+  benchmark-vetlock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Score vetlock against every fixture
+        run: node scripts/run-benchmark.js --scanner vetlock
+      - name: Upload result
+        uses: actions/upload-artifact@v4
+        with:
+          name: vetlock-scorecard
+          path: results/vetlock-*.json

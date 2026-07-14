@@ -1,0 +1,133 @@
+{
+  "scanner": "osv-scanner",
+  "date": "2026-07-14",
+  "summary": {
+    "total": 13,
+    "counts": {
+      "caught": 0,
+      "partial": 0,
+      "missed": 0,
+      "errored": 13
+    },
+    "score": 0
+  },
+  "results": [
+    {
+      "verdict": "errored",
+      "scanner": "osv-scanner",
+      "fixtureId": "coa-rc-2021",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 5,
+      "error": "subprocess: spawnSync osv-scanner ENOENT"
+    },
+    {
+      "verdict": "errored",
+      "scanner": "osv-scanner",
+      "fixtureId": "colors-2022",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 1,
+      "error": "subprocess: spawnSync osv-scanner ENOENT"
+    },
+    {
+      "verdict": "errored",
+      "scanner": "osv-scanner",
+      "fixtureId": "eslint-scope-2018",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 2,
+      "error": "subprocess: spawnSync osv-scanner ENOENT"
+    },
+    {
+      "verdict": "errored",
+      "scanner": "osv-scanner",
+      "fixtureId": "event-stream-2018",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 1,
+      "error": "subprocess: spawnSync osv-scanner ENOENT"
+    },
+    {
+      "verdict": "errored",
+      "scanner": "osv-scanner",
+      "fixtureId": "hardened-evader-2026",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 2,
+      "error": "subprocess: spawnSync osv-scanner ENOENT"
+    },
+    {
+      "verdict": "errored",
+      "scanner": "osv-scanner",
+      "fixtureId": "integrity-tamper-synthetic",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 1,
+      "error": "subprocess: spawnSync osv-scanner ENOENT"
+    },
+    {
+      "verdict": "errored",
+      "scanner": "osv-scanner",
+      "fixtureId": "lottie-player-2024",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 1,
+      "error": "subprocess: spawnSync osv-scanner ENOENT"
+    },
+    {
+      "verdict": "errored",
+      "scanner": "osv-scanner",
+      "fixtureId": "node-ipc-2022",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 2,
+      "error": "subprocess: spawnSync osv-scanner ENOENT"
+    },
+    {
+      "verdict": "errored",
+      "scanner": "osv-scanner",
+      "fixtureId": "rand-user-agent-2025",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 1,
+      "error": "subprocess: spawnSync osv-scanner ENOENT"
+    },
+    {
+      "verdict": "errored",
+      "scanner": "osv-scanner",
+      "fixtureId": "shai-hulud-2025",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 2,
+      "error": "subprocess: spawnSync osv-scanner ENOENT"
+    },
+    {
+      "verdict": "errored",
+      "scanner": "osv-scanner",
+      "fixtureId": "solana-web3-2024",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 1,
+      "error": "subprocess: spawnSync osv-scanner ENOENT"
+    },
+    {
+      "verdict": "errored",
+      "scanner": "osv-scanner",
+      "fixtureId": "typosquat-synthetic",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 2,
+      "error": "subprocess: spawnSync osv-scanner ENOENT"
+    },
+    {
+      "verdict": "errored",
+      "scanner": "osv-scanner",
+      "fixtureId": "ua-parser-2021",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 1,
+      "error": "subprocess: spawnSync osv-scanner ENOENT"
+    }
+  ]
+}

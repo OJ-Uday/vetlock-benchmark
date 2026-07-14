@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "packages": {
+    "": {
+      "name": "my-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "@solana/web3.js": "^1"
+      }
+    },
+    "node_modules/@solana/web3.js": {
+      "name": "@solana/web3.js",
+      "version": "1.95.4",
+      "integrity": "sha512-YFXNL90bz8f8ug87mCoW6HZm4JyDetIs45uDBVU0OaD9JstnZThG8cJ1ozgtKnNUuuDnSB3FcGcJsi1SdkN7jg==",
+      "resolved": "file:./_solana_web3.js-1.95.4/_solana_web3.js-1.95.4.tgz"
+    }
+  }
+}

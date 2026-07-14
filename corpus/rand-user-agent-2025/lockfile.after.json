@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "packages": {
+    "": {
+      "name": "my-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "rand-user-agent": "^1"
+      }
+    },
+    "node_modules/rand-user-agent": {
+      "name": "rand-user-agent",
+      "version": "2.0.1",
+      "integrity": "sha512-B+Z2IiFwuv0vlZ5n3ncrb6ttySnZjEKhTZFmY9bLZARatUOVjMvGPrOdoKCjJtEDdyaXcntpfcM21MLtqSsw1g==",
+      "resolved": "file:./rand-user-agent-2.0.1/rand-user-agent-2.0.1.tgz"
+    }
+  }
+}

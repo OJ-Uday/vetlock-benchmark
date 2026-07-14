@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "packages": {
+    "": {
+      "name": "my-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "evader-lib": "^1"
+      }
+    },
+    "node_modules/evader-lib": {
+      "name": "evader-lib",
+      "version": "1.0.0",
+      "integrity": "sha512-3GrUW6qC4ypAWVu6xm6AgNXo+biLTw6D4/HBb/GK0fuRASad9IR4sM6FQsyR91Euy64iz6kTOzLoRM4sbypZpg==",
+      "resolved": "file:./evader-lib-1.0.0/evader-lib-1.0.0.tgz"
+    }
+  }
+}

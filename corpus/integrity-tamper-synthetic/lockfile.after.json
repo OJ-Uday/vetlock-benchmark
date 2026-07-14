@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "packages": {
+    "": {
+      "name": "my-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "foo-lib": "^1"
+      }
+    },
+    "node_modules/foo-lib": {
+      "name": "foo-lib",
+      "version": "1.2.3",
+      "integrity": "sha512-Gci01/6kylroSGDyZkRaEzsjdmYzpQyCVZ9+cJNkRJGTuHC+xfml262sz5YSb5xYdO4r0m2NRjUp1o/I6BAnHw==",
+      "resolved": "file:./foo-lib-1.2.3/foo-lib-1.2.3.tgz"
+    }
+  }
+}

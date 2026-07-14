@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "packages": {
+    "": {
+      "name": "my-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "event-stream": "^1"
+      }
+    },
+    "node_modules/event-stream": {
+      "name": "event-stream",
+      "version": "3.3.5",
+      "integrity": "sha512-do+KV1KIFH2LamDo+KeGtpPF0BgsrnaUgRwBAHBcWCf7HcJihpmZQViBS405A5QhmZ1XkrMAXtiA8TFp/uE3MQ==",
+      "resolved": "file:./event-stream-3.3.5/event-stream-3.3.5.tgz"
+    }
+  }
+}

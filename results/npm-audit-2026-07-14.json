@@ -1,0 +1,150 @@
+{
+  "scanner": "npm-audit",
+  "date": "2026-07-14",
+  "summary": {
+    "total": 13,
+    "counts": {
+      "caught": 7,
+      "partial": 0,
+      "missed": 6,
+      "errored": 0
+    },
+    "score": 0.5384615384615384
+  },
+  "results": [
+    {
+      "verdict": "caught",
+      "scanner": "npm-audit",
+      "scannerVersion": "npm-audit",
+      "fixtureId": "coa-rc-2021",
+      "findingCount": 1,
+      "findingsPreview": [
+        "coa · npm-audit.1088497"
+      ],
+      "durationMs": 3079
+    },
+    {
+      "verdict": "caught",
+      "scanner": "npm-audit",
+      "scannerVersion": "npm-audit",
+      "fixtureId": "colors-2022",
+      "findingCount": 1,
+      "findingsPreview": [
+        "colors · npm-audit.1090458"
+      ],
+      "durationMs": 2462
+    },
+    {
+      "verdict": "caught",
+      "scanner": "npm-audit",
+      "scannerVersion": "npm-audit",
+      "fixtureId": "eslint-scope-2018",
+      "findingCount": 1,
+      "findingsPreview": [
+        "eslint-scope · npm-audit.1092433"
+      ],
+      "durationMs": 1991
+    },
+    {
+      "verdict": "caught",
+      "scanner": "npm-audit",
+      "scannerVersion": "npm-audit",
+      "fixtureId": "event-stream-2018",
+      "findingCount": 4,
+      "findingsPreview": [
+        "event-stream · npm-audit.1088554",
+        "event-stream · npm-audit.flatmap-stream",
+        "flatmap-stream · npm-audit.1087060",
+        "flatmap-stream · npm-audit.1088396"
+      ],
+      "durationMs": 3039
+    },
+    {
+      "verdict": "missed",
+      "scanner": "npm-audit",
+      "scannerVersion": "npm-audit",
+      "fixtureId": "hardened-evader-2026",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 1612
+    },
+    {
+      "verdict": "missed",
+      "scanner": "npm-audit",
+      "scannerVersion": "npm-audit",
+      "fixtureId": "integrity-tamper-synthetic",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 1493
+    },
+    {
+      "verdict": "missed",
+      "scanner": "npm-audit",
+      "scannerVersion": "npm-audit",
+      "fixtureId": "lottie-player-2024",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 1701
+    },
+    {
+      "verdict": "caught",
+      "scanner": "npm-audit",
+      "scannerVersion": "npm-audit",
+      "fixtureId": "node-ipc-2022",
+      "findingCount": 1,
+      "findingsPreview": [
+        "node-ipc · npm-audit.1088757"
+      ],
+      "durationMs": 2949
+    },
+    {
+      "verdict": "missed",
+      "scanner": "npm-audit",
+      "scannerVersion": "npm-audit",
+      "fixtureId": "rand-user-agent-2025",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 1466
+    },
+    {
+      "verdict": "missed",
+      "scanner": "npm-audit",
+      "scannerVersion": "npm-audit",
+      "fixtureId": "shai-hulud-2025",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 1465
+    },
+    {
+      "verdict": "missed",
+      "scanner": "npm-audit",
+      "scannerVersion": "npm-audit",
+      "fixtureId": "solana-web3-2024",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 1500
+    },
+    {
+      "verdict": "caught",
+      "scanner": "npm-audit",
+      "scannerVersion": "npm-audit",
+      "fixtureId": "typosquat-synthetic",
+      "findingCount": 1,
+      "findingsPreview": [
+        "crossenv · npm-audit.1093889"
+      ],
+      "durationMs": 2295
+    },
+    {
+      "verdict": "caught",
+      "scanner": "npm-audit",
+      "scannerVersion": "npm-audit",
+      "fixtureId": "ua-parser-2021",
+      "findingCount": 1,
+      "findingsPreview": [
+        "ua-parser-js · npm-audit.1113244"
+      ],
+      "durationMs": 3373
+    }
+  ]
+}

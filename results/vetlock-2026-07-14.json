@@ -1,0 +1,193 @@
+{
+  "scanner": "vetlock",
+  "date": "2026-07-14",
+  "summary": {
+    "total": 13,
+    "counts": {
+      "caught": 12,
+      "partial": 0,
+      "missed": 1,
+      "errored": 0
+    },
+    "score": 0.9230769230769231
+  },
+  "results": [
+    {
+      "verdict": "caught",
+      "scanner": "vetlock",
+      "scannerVersion": "schema-v1",
+      "fixtureId": "coa-rc-2021",
+      "findingCount": 5,
+      "findingsPreview": [
+        "coa · exec.new-module",
+        "coa · install.script-added",
+        "coa · meta.maintainer-change",
+        "coa · net.new-endpoint",
+        "coa · net.new-module"
+      ],
+      "durationMs": 308
+    },
+    {
+      "verdict": "missed",
+      "scanner": "vetlock",
+      "scannerVersion": "schema-v1",
+      "fixtureId": "colors-2022",
+      "findingCount": 0,
+      "findingsPreview": [],
+      "durationMs": 294
+    },
+    {
+      "verdict": "caught",
+      "scanner": "vetlock",
+      "scannerVersion": "schema-v1",
+      "fixtureId": "eslint-scope-2018",
+      "findingCount": 6,
+      "findingsPreview": [
+        "eslint-scope · fs.new-hotpath-read",
+        "eslint-scope · fs.new-hotpath-read",
+        "eslint-scope · meta.maintainer-change",
+        "eslint-scope · net.new-endpoint",
+        "eslint-scope · net.new-module"
+      ],
+      "durationMs": 279
+    },
+    {
+      "verdict": "caught",
+      "scanner": "vetlock",
+      "scannerVersion": "schema-v1",
+      "fixtureId": "event-stream-2018",
+      "findingCount": 6,
+      "findingsPreview": [
+        "flatmap-stream · net.encoded-endpoint",
+        "flatmap-stream · net.new-endpoint",
+        "flatmap-stream · obf.new-obfuscated-file",
+        "event-stream · meta.maintainer-change",
+        "flatmap-stream · net.new-module"
+      ],
+      "durationMs": 293
+    },
+    {
+      "verdict": "caught",
+      "scanner": "vetlock",
+      "scannerVersion": "schema-v1",
+      "fixtureId": "hardened-evader-2026",
+      "findingCount": 4,
+      "findingsPreview": [
+        "evader-lib · env.token-harvest",
+        "evader-lib · exec.new-module",
+        "evader-lib · net.encoded-endpoint",
+        "evader-lib · net.new-module"
+      ],
+      "durationMs": 284
+    },
+    {
+      "verdict": "caught",
+      "scanner": "vetlock",
+      "scannerVersion": "schema-v1",
+      "fixtureId": "integrity-tamper-synthetic",
+      "findingCount": 1,
+      "findingsPreview": [
+        "foo-lib · integrity.hash-mismatch"
+      ],
+      "durationMs": 294
+    },
+    {
+      "verdict": "caught",
+      "scanner": "vetlock",
+      "scannerVersion": "schema-v1",
+      "fixtureId": "lottie-player-2024",
+      "findingCount": 3,
+      "findingsPreview": [
+        "@lottiefiles/lottie-player · net.encoded-endpoint",
+        "@lottiefiles/lottie-player · net.new-endpoint",
+        "@lottiefiles/lottie-player · code.dynamic-loading-added"
+      ],
+      "durationMs": 285
+    },
+    {
+      "verdict": "caught",
+      "scanner": "vetlock",
+      "scannerVersion": "schema-v1",
+      "fixtureId": "node-ipc-2022",
+      "findingCount": 3,
+      "findingsPreview": [
+        "node-ipc · fs.new-hotpath-write",
+        "node-ipc · net.new-endpoint",
+        "node-ipc · net.new-module"
+      ],
+      "durationMs": 278
+    },
+    {
+      "verdict": "caught",
+      "scanner": "vetlock",
+      "scannerVersion": "schema-v1",
+      "fixtureId": "rand-user-agent-2025",
+      "findingCount": 4,
+      "findingsPreview": [
+        "rand-user-agent · code.dynamic-loading-added",
+        "rand-user-agent · meta.maintainer-change",
+        "rand-user-agent · net.new-endpoint",
+        "rand-user-agent · net.new-module"
+      ],
+      "durationMs": 290
+    },
+    {
+      "verdict": "caught",
+      "scanner": "vetlock",
+      "scannerVersion": "schema-v1",
+      "fixtureId": "shai-hulud-2025",
+      "findingCount": 13,
+      "findingsPreview": [
+        "chalk · env.token-harvest",
+        "chalk · env.token-harvest",
+        "chalk · env.token-harvest",
+        "chalk · env.token-harvest",
+        "chalk · env.token-harvest"
+      ],
+      "durationMs": 272
+    },
+    {
+      "verdict": "caught",
+      "scanner": "vetlock",
+      "scannerVersion": "schema-v1",
+      "fixtureId": "solana-web3-2024",
+      "findingCount": 4,
+      "findingsPreview": [
+        "@solana/web3.js · meta.maintainer-change",
+        "@solana/web3.js · net.encoded-endpoint",
+        "@solana/web3.js · net.new-endpoint",
+        "@solana/web3.js · net.new-module"
+      ],
+      "durationMs": 278
+    },
+    {
+      "verdict": "caught",
+      "scanner": "vetlock",
+      "scannerVersion": "schema-v1",
+      "fixtureId": "typosquat-synthetic",
+      "findingCount": 4,
+      "findingsPreview": [
+        "crossenv · deps.typosquat-candidate",
+        "crossenv · exec.new-module",
+        "crossenv · net.new-endpoint",
+        "crossenv · net.new-module"
+      ],
+      "durationMs": 287
+    },
+    {
+      "verdict": "caught",
+      "scanner": "vetlock",
+      "scannerVersion": "schema-v1",
+      "fixtureId": "ua-parser-2021",
+      "findingCount": 5,
+      "findingsPreview": [
+        "ua-parser-js · bin.new-native-artifact",
+        "ua-parser-js · exec.new-module",
+        "ua-parser-js · install.script-added",
+        "ua-parser-js · net.new-endpoint",
+        "ua-parser-js · net.new-module"
+      ],
+      "durationMs": 272
+    }
+  ]
+}
