@@ -25,7 +25,7 @@
         "coa · net.new-endpoint",
         "coa · net.new-module"
       ],
-      "durationMs": 308
+      "durationMs": 300
     },
     {
       "verdict": "missed",
@@ -34,7 +34,7 @@
       "fixtureId": "colors-2022",
       "findingCount": 0,
       "findingsPreview": [],
-      "durationMs": 294
+      "durationMs": 315
     },
     {
       "verdict": "caught",
@@ -49,7 +49,7 @@
         "eslint-scope · net.new-endpoint",
         "eslint-scope · net.new-module"
       ],
-      "durationMs": 279
+      "durationMs": 293
     },
     {
       "verdict": "caught",
@@ -64,7 +64,7 @@
         "event-stream · meta.maintainer-change",
         "flatmap-stream · net.new-module"
       ],
-      "durationMs": 293
+      "durationMs": 314
     },
     {
       "verdict": "caught",
@@ -78,7 +78,7 @@
         "evader-lib · net.encoded-endpoint",
         "evader-lib · net.new-module"
       ],
-      "durationMs": 284
+      "durationMs": 300
     },
     {
       "verdict": "caught",
@@ -89,7 +89,7 @@
       "findingsPreview": [
         "foo-lib · integrity.hash-mismatch"
       ],
-      "durationMs": 294
+      "durationMs": 291
     },
     {
       "verdict": "caught",
@@ -102,7 +102,7 @@
         "@lottiefiles/lottie-player · net.new-endpoint",
         "@lottiefiles/lottie-player · code.dynamic-loading-added"
       ],
-      "durationMs": 285
+      "durationMs": 298
     },
     {
       "verdict": "caught",
@@ -115,7 +115,7 @@
         "node-ipc · net.new-endpoint",
         "node-ipc · net.new-module"
       ],
-      "durationMs": 278
+      "durationMs": 297
     },
     {
       "verdict": "caught",
@@ -129,7 +129,7 @@
         "rand-user-agent · net.new-endpoint",
         "rand-user-agent · net.new-module"
       ],
-      "durationMs": 290
+      "durationMs": 306
     },
     {
       "verdict": "caught",
@@ -144,7 +144,7 @@
         "chalk · env.token-harvest",
         "chalk · env.token-harvest"
       ],
-      "durationMs": 272
+      "durationMs": 299
     },
     {
       "verdict": "caught",
@@ -158,7 +158,7 @@
         "@solana/web3.js · net.new-endpoint",
         "@solana/web3.js · net.new-module"
       ],
-      "durationMs": 278
+      "durationMs": 291
     },
     {
       "verdict": "caught",
@@ -172,7 +172,7 @@
         "crossenv · net.new-endpoint",
         "crossenv · net.new-module"
       ],
-      "durationMs": 287
+      "durationMs": 306
     },
     {
       "verdict": "caught",
@@ -187,7 +187,7 @@
         "ua-parser-js · net.new-endpoint",
         "ua-parser-js · net.new-module"
       ],
-      "durationMs": 272
+      "durationMs": 299
     }
   ]
 }
