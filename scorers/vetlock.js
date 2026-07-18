@@ -21,11 +21,11 @@ export async function run({ fixtureDir, manifest }) {
 
   // Resolve which vetlock CLI to invoke.
   // 1. VETLOCK_CLI (absolute path) — for local dev testing an unreleased build.
-  // 2. `npx vetlock@0.3.0` — production path. Requires network access unless cached.
+  // 2. `npx @oj-uday/vetlock@0.8.0` — production path. Requires network access unless cached.
   const cliOverride = process.env.VETLOCK_CLI;
   const args = cliOverride
     ? [cliOverride, 'diff', beforeLockfile, afterLockfile, '--json', '--no-progress']
-    : ['npx', '--yes', 'vetlock@0.3.0', 'diff', beforeLockfile, afterLockfile, '--json', '--no-progress'];
+    : ['npx', '--yes', '@oj-uday/vetlock@0.8.0', 'diff', beforeLockfile, afterLockfile, '--json', '--no-progress'];
 
   const cmd = cliOverride ? 'node' : args.shift();
   const t0 = Date.now();
